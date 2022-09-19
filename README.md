@@ -1,1 +1,1 @@
-# awesome-name-here.github.io
+# awesome-name-lol.github.io
