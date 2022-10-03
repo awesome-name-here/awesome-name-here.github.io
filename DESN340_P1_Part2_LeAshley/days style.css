@@ -1,0 +1,156 @@
+/* CSS Style for cascading.html , project 1 part 2 */
+
+/*Background image for home page*/
+#homepage {
+	background-image: url('assets/home-sky-background.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+#goodmorning {
+	background-image: url('assets/freezydreamin-SV3V-D1G2q4-unsplash.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+#goodafternoon {
+	background-image: url('assets/jakob-owens-uWbRcJSJLV8-unsplash.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+#goodnight {
+	background-image: url('assets/adam-mescher-47Hw5d4AxKM-unsplash.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+/*.background-transitions {
+	  height: 90vh;
+	  width: 90vw;
+	  margin: 5vh 5vw;
+	  background-color: #eee;
+	  background-position: center;
+	  background-size: cover;
+
+	  animation: image 3.5s infinite alternate;
+}
+
+@keyframes image {
+	  0% {
+	    background-image: url('assets/jakob-owens-uWbRcJSJLV8-unsplash.jpg');
+	  }
+	  100% {
+	    background-image: url('assets/freezydreamin-SV3V-D1G2q4-unsplash.jpg');
+	  }
+	  }
+}*/
+
+/*Logo image*/
+header img{
+	/*text-align: center;*/
+	display: block;
+  	max-width:230px;
+  	max-height:95px;
+  	width: auto;
+  	height: auto;
+    /*margin:auto;*/
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+body {
+	color: white;
+}
+
+body h1 {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 75px;
+}
+
+body p {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 20px;
+	margin: 0px 0px 30px 0px;
+}
+
+div {
+	background-color: rgba(0,0,0,.8);
+	/*padding: 20px 10px;*/
+	padding: 5px 10px 35px 10px;
+	margin: 20px 50px;
+}
+
+div a {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    border: 0.2px solid #000;
+    color: #000;
+    background: #e6e4e4;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+div a:hover {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 20px;
+    text-decoration: none;
+    border: 0.2px solid #000;
+    color: #000;
+    background: darkgray;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+section #goodmorning-box {
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	padding: 20px 50px;
+}
+
+section #goodafternoon-box {
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	padding: 20px 50px;
+}
+
+section #goodnight-box {
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	padding: 20px 50px;
+}
+
+section a{
+	color: white;
+
+}
+
+section a:link { 
+	text-decoration: none; 
+}
+
+section a:visited {
+	text-decoration: none;
+}
+
+section a:hover { 
+	text-decoration: underline; 
+}
+
+section a:active { 
+	text-decoration: underline; 
+}
