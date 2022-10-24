@@ -1,0 +1,266 @@
+/*CSS Style Skeleton*/
+
+/*
+FONT FAMILY
+
+font-family: 'Pangolin', cursive;
+font-family: 'Special Elite', cursive;
+*/
+
+
+html {
+	box-sizing: border-box;
+	background-color: black;
+	color: white;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+header {
+	position: absolute;
+	z-index: 1;
+}
+
+header img {
+	display: inline-block;
+	background-color: black;
+	background-position: cover;
+
+	width: 60px;
+	padding: 12px;
+	border-radius: 50px;
+}
+
+header img:hover {
+	background-color: darkslategray;
+	transition: 0.5s;
+	/*opacity: 1;*/
+}
+
+#home-icon {
+	position: absolute;
+	/*margin-top: 20px;*/
+	/*margin-left: 15vw;*/
+	margin: 0 auto;
+	padding-left: 7vw;
+	/*padding-top: 2vh;*/
+	padding-top: 1rem;
+}
+
+.menu {
+	position: absolute;
+	margin-left: 33vw;
+	text-decoration: none;
+	margin-top: 25vh;
+}
+
+.menu-icons {
+	list-style-type: none;
+	display: inline;
+}
+
+header li {
+	padding-bottom: 17px;
+}
+
+.container {
+	/*width: 1170px;*/
+	position: relative;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+}
+
+.left-image-container {
+	background-image: url("images/branimir-balogovic-yY66QAbGxq4-unsplash.jpg");
+	background-size: cover;
+	position: relative;
+	/*margin: 0;*/
+	/*margin-bottom: -107px;*/
+	margin-bottom: -70px;
+	width: 35vw;
+	height: 70px;
+}
+
+.left-image-body {
+	padding: 35px;
+	padding-top: 80px;
+	/*background-color: blue;*/
+}
+
+.left-image-body h3, h5 {
+	font-family: 'Pangolin', cursive;
+}
+
+.left-image-body h3 {
+	font-size: 2rem;
+	margin: 0;
+	margin-bottom: 8px;
+}
+
+.left-image-body h5 {
+	margin: 0;
+	font-size: 1rem;
+	padding-bottom: 10px;
+}
+
+.left-image-body p {
+	font-family: 'Special Elite', cursive;
+	font-size: 16px;
+
+}
+
+.image-grid {
+	position: absolute;
+	left: 35%;
+	/*width: 80%;*/
+	width: 65vw;
+	height: 100vh;
+	/*background-color: red;*/
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	gap: 0.2rem;
+}
+
+.image-grid h3 {
+	font-family: 'Pangolin', cursive;
+	font-size: 1.5rem;
+	text-align: center;
+	margin-top: 75px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.image-grid p {
+	font-family: 'Special Elite', cursive;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/*Hover over image CSS styling. Never got it to work out for each individual image*/
+/*.image-grid .image-overlay {
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	height: 99%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.image-grid:hover.image-overlay {
+	opacity: 1;
+}
+
+.image-details {
+	position: absolute;
+	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	opacity: 0;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.image-grid:hover .image-details {
+	top: 50%;
+	left: 50%;
+	opacity: 1;
+}*/
+
+.image1 {
+	position: relative;
+	background-image: url("images/david-menidrey-MYRG0ptGh50-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	filter: grayscale(50%);
+	overflow: hidden;
+}
+
+.image2 {
+	position: relative;
+	background-image: url("images/branimir-balogovic-yY66QAbGxq4-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	filter: grayscale(50%);
+	overflow: hidden;
+}
+
+.image3 {
+	position: relative;
+	background-image: url("images/szabo-janos-0d5-_kJFdDk-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	filter: grayscale(50%);
+	overflow: hidden;
+}
+
+.image4 {
+	position: relative;
+	background-image: url("images/simom-caban-ZKrEJMhEsr8-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	filter: grayscale(50%);
+	overflow: hidden;
+}
+
+.image5 {
+	position: relative;
+	background-image: url("images/vino-li-W1py5swbJZY-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	filter: grayscale(50%);
+	overflow: hidden;
+}
+
+.image6 {
+	position: relative;
+	background-image: url("images/daniele-colucci-8MoRs-DVtas-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	filter: grayscale(50%);
+	overflow: hidden;
+}
+
+.image7 {
+	position: relative;
+	background-image: url("images/freestocks-kVv8AvoKJ7g-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	filter: grayscale(50%);
+	overflow: hidden;
+}
+
+.image8 {
+	position: relative;
+	background-image: url("images/daniel-lincoln-0nO88Q37cGo-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	filter: grayscale(50%);
+	overflow: hidden;
+}
+
+.image9 {
+	position: relative;
+	background-image: url("images/emilia-willberg-adEviDyBoEI-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	filter: grayscale(50%);
+	overflow: hidden;
+}
